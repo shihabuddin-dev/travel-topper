@@ -39,6 +39,8 @@ section {
     padding: 14px 14px 14px 14px;
     border-radius: 8px;
     background: rgb(255, 84, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 800;
 }
 
 span {
@@ -137,3 +139,16 @@ button {
     align-items: center;
 }
 
+/* Our Popular Tours section styles */
+.popular-tour{
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.popular-tour-text p {
+    padding: 10px 0;
+}
+.popular-tour-text ul {
+    
+    padding-left: 20px;
+}
