@@ -1,0 +1,40 @@
+/* Small Device Media Query */
+@media only screen and (max-width:576px) {
+    body {
+        margin: 0;
+        padding: 0 50px;
+    }
+
+    .navbar {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hero {
+        width: 335px;
+        height: 483px;
+        padding: 30px 0;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+.hero-title{
+    font-size: 1.3rem;
+}
+.section-caption{
+    font-size: 0.9rem;
+}
+    .hero-selection {
+        width: 287px;
+height: 288px;
+        flex-direction: column;
+        
+    }
+}
