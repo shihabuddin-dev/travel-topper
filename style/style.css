@@ -152,3 +152,15 @@ button {
     
     padding-left: 20px;
 }
+
+/* Choose Your Destination styles  */
+.destination{
+    text-align: center;
+}
+.destination-img{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+}
