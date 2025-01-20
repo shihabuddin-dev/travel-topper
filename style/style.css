@@ -244,3 +244,23 @@ button {
     gap: 30px;
     padding-top: 30px;
 }
+/* News section Styles */
+.news{
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.news li{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.news-img{
+    position: relative;
+    border-radius: 10px;
+}
+.news-img h2{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
