@@ -156,11 +156,30 @@ button {
 /* Choose Your Destination styles  */
 .destination{
     text-align: center;
-}
-.destination-img{
-    margin-top: 40px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
 
+}
+ .whole-img{
+    display: grid;
+    padding-top: 30px;
+    gap: 24px;
+ }
+
+.row{
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.single-img{
+    position: relative;
+}
+.single-img-text{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: rgb(255, 255, 255);
+font-size: 1.75rem;
+font-weight: 800;
+    
+    
 }
