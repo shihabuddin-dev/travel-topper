@@ -85,6 +85,14 @@
     .card3{
     grid-column: unset;
     width: auto; }
+    /* .news{
+        max-width: 576px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .news-img{
+        max-width: 100%;
+    } */
 }
 
 
@@ -122,4 +130,5 @@
     .card3{
         grid-column: unset;
         width: auto; }
+       
 }
