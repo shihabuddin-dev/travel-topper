@@ -277,3 +277,73 @@ button {
     font-size: 24px;
     font-weight: 700;
 }
+.news-img video{
+    border-radius: 16px;
+}
+/* Newsletter section styles */
+.newsletter{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 50px 0;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.nl-form{
+    width: 40%;
+}
+.nl-img{
+    width: 60%;
+    position: relative;
+}
+
+.nl-form {
+    padding: 40px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+.nl-form h3{
+font-size: 1.5rem;
+font-weight: 800
+}
+.nl-form input{
+    padding: 16px 200px 16px 20px;
+    margin: 15px 0;
+    color: rgba(19, 19, 24, 0.3);
+font-size: 1rem;
+font-weight: 400;
+border: none;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+}
+.nl-img img{
+    width: 100%;
+    height: auto;
+}
+.travel-btn{width: 324px;
+    height: 120px;
+    position: absolute;
+    bottom: 55px;
+    right: 10px;
+transform: rotate(-19.63deg);
+}
+.save{
+    color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 800;
+}
+/* Footer section  */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 40px 200px;
+}
+.footer{
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.social-icon{
+    gap: 30px;
+    padding: 20px;
+}

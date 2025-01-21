@@ -18,7 +18,9 @@
         font-weight: 400;
         line-height: 24px;
     }
-
+    .tab-hide {
+        display: none;
+    }
     .navbar {
         justify-content: space-between;
         align-items: center;
@@ -85,17 +87,46 @@
     .card3{
     grid-column: unset;
     width: auto; }
-    /* .news{
+    .news{
         max-width: 576px;
         margin: 0 auto;
         flex-direction: column;
     }
     .news-img{
         max-width: 100%;
-    } */
+    }
+    .news-img video{
+        width: 100%;
+    }
+    .news-img h2 {
+        top: 35%;
+        left: 15%;
+    }
+    .news-text{
+        text-align: center;
+    }
+    .news-text li{
+        list-style: none;
+    }
+    .newsletter{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .nl-form{
+        width: 80%;
+        padding-right: 40px;
+    }
+    .nl-img{
+        width: auto;
+    }
+    .nl-form input{
+        padding: 16px 150px 16px 20px;
+    }
+    footer{
+        background: rgba(19, 19, 24, 0.05);
+        padding: 20px 10px; 
+    }
 }
-
-
 
 
 /* Medium Devices Media query */
@@ -104,11 +135,23 @@
         margin: 0;
         padding: 0 100px;
     }
+    .tab-hide {
+        display: none;
+    }
+    .navbar ul {
+        display: none;
+    }
 
+    .hamburger {
+        display: block;
+    }
     .hero {
-
+        margin: 0 auto;
+        margin: 40px 0;
+        width: 935px;
+        height: 483px;
         width: 100%;
-
+        overflow: auto;
     }
     .popular-tour {
         flex-direction: column;
@@ -129,6 +172,33 @@
     }
     .card3{
         grid-column: unset;
-        width: auto; }
-       
+        width: auto; 
+    }
+    .news{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .news-img video{
+        width: 100%;
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+    .nl-form{
+        width: 90%;
+        padding-right: 40px;
+    }
+    .nl-img{
+        width: 100%;
+    }
+    .nl-form input{
+        padding: 16px 200px 16px 20px;
+    }
+    footer{
+        background: rgba(19, 19, 24, 0.05);
+        padding: 20px 10px; 
+    }
+   
 }
